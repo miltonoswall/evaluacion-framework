@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>block de turismo</title>
+</head>
+<body>
+  
+ 
+  <div class=" col l12 row">
+   <nav class=" nav-extended">
+    <div class="nav-wrapper cyan">
+      <div class="col s3">
+        <img src="img/logo.png" alt="logo" class="img-floating"/>
+          
+      </div>
+      <div class="col l7 offset-l2">
+        <ul class="right hide-on-med-and-down">
+          <li><a class=" waves-effect waves-light btn-large">Inicio<i class=" tiny material-icons left">home</i></a></li>
+          <li><a class="waves-effect waves-light btn-large">Favoritos<i class=" tiny material-icons left">star</i></a></li>
+          <li><a class="waves-effect waves-light btn-large">Recomendados<i class=" tiny material-icons left">chat</i></a></li>
+        </ul>
+      </div>
+    
+      <div class=" col  m5 l5 nav-content">
+        <span class="black-text text-darken-1"  id="text"><h5> Un paraiso en la mitad del mundo</h5></span>
+      </div>
+    </div>  
+    
+   </nav>
+  </div>
+
+  
+
+  <div class="row">
+    <div class="col l12">
+      <div class="social col l1">
+        <ul>
+          <li><a href="#" class="waves-effect waves-light left"><img src="img/twiter.png" class="icon-social"></a></li>
+          <li><a href="#" class="waves-effect waves-light left"><img src="img/facebook.png" class="icon-social"></a></li>
+          <li><a href="#" class="waves-effect waves-light left"><img src="img/instagram.png" class="icon-social"></a></li>
+          <li><a href="#" class="waves-effect waves-light left"><img src="img/youtube.png" class="icon-social"></a></li>
+          <li><a href="#" class="waves-effect waves-light left"><img src="img/likeding.png" class="icon-social"></a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col l11 ">
+        <div class="col l4 s12 ">
+          <img src="img/paisaje1.jpg" alt="paisaje" class="paisaje">
+          <img src="img/ecuador1.png" alt="paisaje" class="paisaje">
+        </div>
+        <div class="col l4 s12 ">
+          <img src="img/mitad.jpg" alt="paisaje" class="mitad">
+        </div>
+        <div class="col l4  s12 ">
+          <img src="img/paisaje3.jpg" alt="paisaje" class="paisaje">
+          <img src="img/paisaje4.jpg" alt="paisaje" class="paisaje">
+          <img src="img/paisaje5.jpg" alt="paisaje" class="paisaje">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col l8 ">
+      <div class="row">
+        <div class="col s12 entrada1">
+        
+          <img src="img/cuicocha.jpg" alt="lago" align="left" class=" lago img-responsive ">
+          <h4>La ruta de los lagos</h4>
+          <a class="waves-effect waves-light btn-small"><i class="material-icons left">event</i>12 de abril de 2018</a>
+          <a class="waves-effect waves-light btn-small"><i class="material-icons left">location_on</i>Quito Ecuador</a>
+          <p>
+            Si alguna vez la vida te lleva a la provincia de Imbabura, cerca de Otavalo, Ibarra o Cotacachi, no te olvides de pasar por la maravillosas lagunas sagradas cercanas a la zona (son más de 20 pero aquí 3 de las que me deleitaron) y les comparto un relato de estas esplendorosas fuentes de vida y sabiduría, revitalizadoras de espíritu y reanimadoras de energía.
+          <br>
+          <br>
+
+            La primera parada se encuentra en las proximidades del volcán Imbabura, el magnífico lago San Pablo magnetiza con su interminable resplandor y majestuosidad; si no fuese por las montañas que se ven en el horizonte, pareciera un brazo de mar sobrepuesto en las alturas. Luego la magnificente Cuicocha, te dejará sin aliento. La altura de más de 3,000 mts, ha hecho que historiadores se preguntaran, ¿cómo llegó a formarse una laguna a tal altura? El descubrimiento fue asombroso, la laguna es un cráter volcánico que hasta el día de hoy se encuentra activo. Finalmente, la llegada a Yaguarcocha también es esplendoroso por sus aguas cristalinas, aunque más juguetona. Botecitos de pedal esperan a la orilla para un paseo por sus aguas llenas de misterio. 
+          </p>
+        </div>
+        <div class="row formato">
+          <form>
+            <div class="col l12 s12  cyan ">
+              <div class="row ">
+                <h5>Deja tu comentario</h5>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email" data-success="correcto" data-error="Debe completar este campo">Email</label>
+              </div>
+            </div>
+                 
+            <div class="row">
+              <div class="input-field cols6">
+                <i class="material-icons prefix">message</i>
+                <textarea id="texto" class="materialize-textarea"></textarea>
+                <label for="texto">Comentarios</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>  
+
+      </div>
+    </div>
+    <div class="row col l4 s12 s-order-12">
+      <div class="entrada1">
+        <center><img class=" circle responsive-img imagen" src="img/anonimo.jpg" align="center"></center>
+          <h5>Perfil del autor</h5>
+          <p>
+             Un gusto enorme porder compartir con ustedes mi nombre es Milton nací en Quito Ecuador, soy un amante del facinante mundo de sistemas, llevo dos años laborando en este gran mundo del desarrollo de software, actualmente soy desarrollador de sistemas  y programador freelance.
+          </p>
+        
+      </div>    
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col l8 ">
+      <div class="row">
+        <div class="col s12 entrada1">
+        
+          <img src="img/galapagos.jpg" alt="lago" align="right" class=" lago img-responsive ">
+          <h4>Las Islas Encantadas</h4>
+          <a class="waves-effect waves-light btn-small"><i class="material-icons left">event</i>24 de abril de 2018</a>
+          <a class="waves-effect waves-light btn-small"><i class="material-icons left">location_on</i>Galapagos Ecuador</a>
+          <p>
+            Hermoso archipiélago de origen volcánico, se encuentra formado por 13 islas y 47 islotes. Se ubica a 600 millas de la costa ecuatoriana y es el lugar de nacimiento de nuevas y características especies. Su aislamiento y los factores de temperatura en aguas frescas, debido a la localización ecuatorial, han motivado la creación de una gran diversidad de vida en este archipiélago.
+
+          <br>
+          <br>
+
+            Caminar alrededor de las islas se convierte en una aventura, mientras  te mueves en torno a una gran variedad de animales, que sorprendentemente no tiene ningún temor hacia los seres humanos y te hacen sentir como pertenciaras allí. La increíble experiencia de caminar alado de un león marino, una iguana, un piquero de patas azules, entre otros al punto  que casí podrías tocarlos, es una sensación increíble que rápidamente se convirtió en habitual en nuestro día a día.
+          </p>
+        </div>
+        <div class="row formato">
+          <form>
+            <div class="col l12 s12  cyan ">
+              <div class="row ">
+                <h5>Deja tu comentario</h5>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">person</i>
+                <input id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email" data-success="correcto" data-error="Debe completar este campo">Email</label>
+              </div>
+            </div>
+                 
+            <div class="row">
+              <div class="input-field cols6">
+                <i class="material-icons prefix">message</i>
+                <textarea id="texto" class="materialize-textarea"></textarea>
+                <label for="texto">Comentarios</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>  
+    </div>
+  </div>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script type="text/javascript" src="js/materialize.min.js"></script>
+    <script >
+    $(document). reasdy(function() { $('.parallax').Parallax (); });
+    </script>
+</body>
+</html>

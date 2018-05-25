@@ -1,0 +1,47 @@
+
+.logo-img {
+  width: 150px;
+}
+
+.img-social{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px; 
+}
+
+
+.btn-info{
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	background: #3074B2;
+	border: 0px;
+}
+
+.navbar{
+	padding: 10px;
+
+
+}
+
+.icon{
+	width: 100px;
+}
+
+.comentario{
+	border-radius: 20px;
+	border: 1px solid #000000;
+}
+
+.imagen{
+	padding: 20px;
+	width: 250px;
+}
+
+.icono{
+	width: 20px;
+}
+
+
+
+

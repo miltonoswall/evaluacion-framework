@@ -1,0 +1,74 @@
+.logo{
+	width: 125px;
+
+}
+
+
+body{
+	background: url(../img/paisaje2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+}
+
+.nav-extended{
+	min-height: 10rem;
+}
+
+#texto{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+img.logo{
+	vertical-align: text-bottom;
+}
+.nav-content{
+	vertical-align: text-bottom;
+	bottom: 0px;
+}
+.social{
+	 
+	left: 0; 
+	top: 250px; 
+	z-index: 2000;
+	width: 50px;
+}
+
+img.icon-social{
+	width: 50px;
+}
+
+img.paisaje{
+	width: 370px;
+	padding: 0px;
+
+}
+
+img.mitad{
+	width: 380px;
+	padding: 0px;
+}
+
+ .lago{
+ 	width: 350px;
+ 	padding: 8px;
+ }
+
+.imagen{
+	width: 150px;
+}
+.entrada1{
+	background: white;
+	padding: 8px;
+}
+
+.comentario{
+	left: 15px;
+}
+
+.mensaje{
+	
+	padding: 10px,
+}

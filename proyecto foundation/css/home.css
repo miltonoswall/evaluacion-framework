@@ -1,0 +1,52 @@
+body{
+  background: url(../img/gastronomia.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+}
+.header{
+      background-color: rgba(17, 182, 232, 0.53);
+}
+
+.titulo{
+  border-right: 1px solid #fff;
+  padding: 5px;
+}
+.icon{
+  width: 8%;
+}
+
+.yourClass{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+}
+
+input
+{
+    background: url("iconos.gif") no-repeat scroll 0 0 transparent;
+    border: 1px solid #BFBFBF;
+    color: #BFBFBF;
+    padding: 5px 5px 5px 25px;
+    
+}
+
+input.search{ background-position: 4px 4px; }
+
+.imagen{
+	padding: none;
+}
+
+.comentario{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.botones{
+  border-right:0px;
+}
+.foto{
+  padding: 10px;
+}
